@@ -1,0 +1,70 @@
+{
+    "name": "necronomicon",
+    "title": "Necronomicon",
+    "description": "Compêndio em português de Chamado de Cthulhu 7.ª Edição.",
+    "version": "1.0.0",
+    "socket": true,
+  "compatibility": {
+    "minimum": "10.278",
+    "verified": "10"
+  },
+    "esmodules": [],
+    "packs": [
+    	{
+    	  "name": "setups",
+          "label": "Eras",
+          "path": "packs/setups.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+    	},
+        {
+          "name": "skills",
+          "label": "Perícias",
+          "path": "packs/skills.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+        },
+        {
+          "name": "occupations",
+          "label": "Ocupações",
+          "path": "packs/occupations.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+        },
+        {
+          "name": "weapons",
+          "label": "Armas",
+          "path": "packs/weapons.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+        },
+        {
+          "name": "tables",
+          "label": "Tabelas",
+          "path": "packs/tables.db",
+          "type": "RollTable",
+          "module": "necronomicon",
+          "system": "CoC7"
+        },
+ 	{
+          "name": "pulptalents",
+          "label": "Talentos Pulp",
+          "path": "packs/talents.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+        }, {
+          "name": "archetypes",
+          "label": "Arquétipos Pulp",
+          "path": "packs/archetypes.db",
+          "type": "Item",
+          "module": "necronomicon",
+          "system": "CoC7"
+        }
+    ],
+    "relationships.requires": []
+}
